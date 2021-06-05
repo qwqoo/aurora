@@ -14,13 +14,13 @@ export default {
   /**
    * 站点标题
    */
-  title: '蝉時雨',
-  subtitle: '蝉鸣如雨 花宵道中',
+  title: '迢迢の小窝',
+  subtitle: '迢迢星灼 杳杳川泊',
 
   /**
    * Github Issues 配置
    */
-  username: 'chanshiyucx', // github 用户名
+  username: 'qwqoo', // github 用户名
   repository: 'blog', // 文章仓库地址
   token: ['0ad1a0539c5b96fd18fa', 'aaafba9c7d1362a5746c'], // token 从中间任意位置拆开成两部分，避免 github 代码检测失效
 
@@ -28,11 +28,11 @@ export default {
    * Gitalk 配置，文档详见：https://github.com/gitalk/gitalk
    */
   gitalk: {
-    clientID: '864b1c2cbc4e4aad9ed8',
-    clientSecret: '6ca16373efa03347e11a96ff92e355c5cea189bb',
-    repo: 'comment', // 评论仓库地址
-    owner: 'chanshiyucx',
-    admin: ['chanshiyucx'],
+    clientID: '6bd61b85a727a9dc7450',
+    clientSecret: 'ecbda7d0494a578d07f00630c59cf7cafbadae08',
+    repo: 'qwqoo.github.io', // 评论仓库地址
+    owner: 'qwqoo',
+    admin: ['qwqoo'],
     distractionFreeMode: false, // 是否开始无干扰模式【背景遮罩】
     proxy: 'https://bokegitalkcors.herokuapp.com/https://github.com/login/oauth/access_token',
   },
@@ -41,8 +41,8 @@ export default {
    * leancloud 配置 【注意切换为国际版】
    */
   leancloud: {
-    appId: 'LjOwR4ELEqbauKvtQbwq5TUw-MdYXbMMI',
-    appKey: 'BOSFJ49ohbGctgn4zvJE9VN6',
+    appId: 'WCUREW9S5ybjo8Eoujk59L7w-MdYXbMMI',
+    appKey: '2zdVXjHNzfCUqWXExKfjTBKV',
   },
 
   /**
